@@ -1,0 +1,20 @@
+{
+    "name": "mxnone/task04_2",
+    "authors": [
+        {
+            "name": "TrostinSA",
+            "email": "trostin.sergei@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
